@@ -32,3 +32,15 @@ Challenge from Brad Traversy & Florin Pop on Udemy '50 Projects in 50 Days'
 ---
 
 ## Takeaways from the instructor
+
+1. HTML
+
+- divs instead of buttons
+- emojis from flaticon.com
+
+2. CSS
+
+3. JavaScript
+
+- event bubbling is good when there are (too) many elements to add event listener.
+- defaultContainer.innerHTML instead of removing the default div and create another div and add it to body

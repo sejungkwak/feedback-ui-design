@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Feedback UI Design</title>
+	</head>
+	<body>
+		<div class="default-container" id="defaultContainer">
+			<p class="question">How satisfied are you with our customer support performance?</p>
+			<div class="review-container" id="reviewContainer">
+				<button class="review">
+					<img class="emoji" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/google/274/angry-face_1f620.png" alt="Angry Face" width="50px" height="50px">
+					<small>Unhappy</small></button>
+				<button class="review">
+					<img class="emoji"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/google/274/neutral-face_1f610.png" alt="Neutral Face" width="50px" height="50px">
+					<small>Neutral</small></button>
+				<button class="review active">
+					<img class="emoji" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/google/274/beaming-face-with-smiling-eyes_1f601.png" alt="Beaming Face with Smiling Eyes" width="50px" height="50px">
+					<small>Satisfied</small></button>
+			</div>
+			<button type="submit" class="submit" id="submit">Send Review</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
